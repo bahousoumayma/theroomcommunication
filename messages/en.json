@@ -1,0 +1,142 @@
+{
+  "Layout": {
+    "Header": {
+      "button": "Inquire"
+    },
+    "Footer": {
+      "logoAlt": "The Room Communication Logo",
+      "statement": "We shape refined brand identities through strategy, design, and storytelling—crafted to resonate with clarity and lasting impact.",
+      "navAria": "Footer Navigation",
+      "socialsAria": "Social Media Links",
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact"
+      },
+      "locationNote": "Based in Morocco — working globally with brands that seek distinction, precision, and elevated presence.",
+      "copyright": "The Room Communication"
+    }
+  },
+  "Home": {
+    "Hero": {
+      "title": "We build <primary>brands</primary> that hold <primary>attention</primary>.",
+      "description": "Strategy and creative direction for companies that understand\nthat perception defines value.",
+      "button": "Learn More"
+    },
+    "About": {
+      "title": "About",
+      "paragraphs": {
+        "singularity": "At The Room Communication, we believe every brand holds a unique singularity that deserves to be revealed with precision and intent.",
+        "vision": "Our vision is to create distinctive universes where creativity meets strategy, giving birth to memorable and enduring brand identities.",
+        "approach": "Through a dual creative and strategic approach, we transform brands into cohesive, desirable, and meaningful experiences."
+      },
+      "button": "Learn More"
+    },
+    "Trust": {
+      "title": "Trusted by leading companies"
+    },
+    "Mission": {
+      "kicker": "Our vision",
+      "lead": "With years of experience helping people and businesses grow, our team provides expert guidance built on real-world results, creative thinking, and a true passion for seeing our partners succeed—no matter where they are starting from.",
+      "statement": "We craft world-class digital identities for ambitious innovators and established brands through boundary-pushing design, immersive storytelling, and a refined partnership that ensures every brand resonates with lasting impact.",
+      "cta": "About us"
+    },
+    "Services": {
+      "kicker": "Our services",
+      "title": "Full-spectrum expertise for ambitious brands",
+      "items": {
+        "strategy": {
+          "title": "Strategy Consulting & Branding",
+          "description": "Crafting strong identities and precise brand positioning."
+        },
+        "coaching": {
+          "title": "Training & Coaching (Media Training)",
+          "description": "VIP coaching for media presence, public speaking, and leadership development."
+        },
+        "marketing": {
+          "title": "Digital Marketing & Community Management",
+          "description": "Visibility strategy, social media management, and online reputation building."
+        },
+        "events": {
+          "title": "Event Strategy & Production",
+          "description": "Designing communication campaigns and producing bespoke, high-end events."
+        }
+      }
+    },
+    "FAQ": {
+      "title": "Learn more about us",
+      "description": "Here are some questions our clients frequently ask",
+      "questions": {
+        "localMarket": {
+          "question": "Do you only work with Moroccan clients?",
+          "answer": "While our roots are deeply embedded in Morocco and we have a strong understanding of the local market, we also work with international brands looking to expand globally or establish a presence in the MENA region."
+        },
+        "turnaround": {
+          "question": "What are your project delivery timelines?",
+          "answer": "For most creative deliverables and design assets, we typically deliver within 2–3 business days. We balance speed with premium execution to ensure your brand stands out with excellence."
+        },
+        "services": {
+          "question": "What services do you specialize in?",
+          "answer": "We specialize in social media management, performance marketing, brand identity, and web development, all tailored for high-impact results in both Moroccan and international markets."
+        },
+        "culture": {
+          "question": "What defines your agency culture?",
+          "answer": "We blend modern digital performance with Moroccan hospitality. Our team is agile, data-driven, and highly creative, acting as a true growth partner rather than just a service provider."
+        }
+      }
+    }
+  },
+  "Contact": {
+    "Hero": {
+      "kicker": "Inquiries 2026",
+      "title": "Digital presence <br></br> redefined through <br></br> refined strategy"
+    },
+    "ContactSection": {
+      "kicker": "Project Brief",
+      "text": "Tell us about your vision. Let's build something meaningful.",
+      "form": {
+        "fields": {
+          "name": {
+            "label": "Name",
+            "placeholder": "Jurgen Klopp",
+            "errors": {
+              "required": "Name can't be empty",
+              "tooShort": "Name is too short",
+              "tooLong": "Name is too long",
+              "invalid": "Invalid characters in name"
+            }
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "jurgen@lfc.com",
+            "errors": {
+              "required": "Email can't be empty",
+              "format": "Invalid email format",
+              "tooLong": "Email is too long"
+            }
+          },
+          "subject": {
+            "label": "Subject",
+            "placeholder": "How can we help?",
+            "errors": {
+              "required": "Subject can't be empty",
+              "tooShort": "Subject is too short",
+              "tooLong": "Subject is too long"
+            }
+          },
+          "message": {
+            "label": "Message",
+            "placeholder": "Tell us about your project...",
+            "errors": {
+              "required": "Message can't be empty",
+              "tooShort": "Message is too short",
+              "tooLong": "Message is too long",
+              "moreWords": "Add a few more words"
+            }
+          }
+        },
+        "submit": "Send Message"
+      }
+    }
+  }
+}

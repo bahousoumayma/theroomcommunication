@@ -1,0 +1,73 @@
+:root {
+  --transition-fast: 400ms;
+  --transition-slow: 700ms;
+  --ease-luxury: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.container {
+  position: fixed;
+  right: 2.5rem;
+  bottom: 2.5rem;
+  transform: translateY(30px) scale(0.95);
+  opacity: 0;
+  z-index: 100;
+  transition:
+    transform var(--transition-slow) var(--ease-luxury),
+    opacity var(--transition-slow) var(--ease-luxury);
+  pointer-events: none;
+}
+
+.visible {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hidden {
+  transform: translateY(30px) scale(0.95);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+  border: 1px solid color-mix(in oklab, var(--border) 60%, transparent);
+  border-radius: 9999px;
+  background: color-mix(in oklab, var(--background) 80%, transparent);
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
+.button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 30px color-mix(in oklab, black 20%, transparent);
+  border-color: var(--foreground);
+  background: var(--foreground);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.label {
+  transition:
+    color var(--transition-fast),
+    transform var(--transition-fast);
+  color: var(--foreground);
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.button:hover .label {
+  transform: translateY(-2px);
+  color: var(--background);
+}

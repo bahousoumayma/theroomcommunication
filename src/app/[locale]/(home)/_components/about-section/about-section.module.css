@@ -1,0 +1,87 @@
+.section {
+  padding: 5rem 0;
+}
+
+/* container */
+.container {
+  display: grid;
+  gap: 3rem;
+}
+
+/* Intro */
+.intro {
+}
+
+.kicker {
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Body */
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.lead {
+  max-width: 28rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+/* Main message */
+.title {
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+/* Actions */
+.cta {
+  display: flex;
+  gap: 0.75rem;
+}
+
+/* ---------------- Responsive ---------------- */
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 3rem;
+  }
+
+  .kicker {
+    font-size: 1rem;
+  }
+
+  .body {
+    gap: 3.5rem;
+  }
+
+  .title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding: 8rem 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    padding: 0 6rem;
+  }
+
+  .intro {
+    padding-top: 0.5rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,71 @@
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-weight: var(--font-weight-body);
+  line-height: var(--line-height-body);
+  font-family: var(--font-family-body);
+  text-align: var(--text-align-body);
+}
+
+::selection {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  width: 100%;
+  max-width: 120rem;
+  height: 100%;
+}
+
+@media screen and (min-width: 48rem) {
+  .container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-heading);
+  line-height: var(--line-height-heading);
+  font-family: var(--font-family-heading);
+}
+
+h1,
+.h1 {
+  font-size: clamp(4rem, 3.824vw + 2.776rem, 8rem);
+}
+
+h2,
+.h2 {
+  font-size: clamp(1.75rem, 1.214rem + 1.429vw, 2.5rem);
+}
+
+h3,
+.h3 {
+  font-size: clamp(1.5rem, 1.143rem + 0.952vw, 2rem);
+}
+
+h4,
+.h4 {
+  font-size: clamp(1.275rem, 1.114rem + 0.429vw, 1.5rem);
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}

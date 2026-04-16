@@ -1,0 +1,60 @@
+:root {
+  --transition-slow: 500ms;
+}
+
+.input {
+  display: flex;
+  transition:
+    border-color var(--transition-slow),
+    color var(--transition-slow);
+  outline: none;
+  border: 1px solid color-mix(in oklab, var(--foreground) 15%, transparent);
+  border-radius: 0;
+  background: transparent;
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  width: 100%;
+  min-width: 0;
+  height: 3rem;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .input {
+    font-size: 0.875rem;
+  }
+}
+
+.input::placeholder {
+  color: color-mix(in oklab, var(--muted-foreground) 40%, transparent);
+}
+
+.input:hover {
+  border-color: color-mix(in oklab, var(--foreground) 40%, transparent);
+}
+
+.input:focus-visible {
+  border-color: var(--foreground);
+}
+
+.input::file-selector-button {
+  display: inline-flex;
+  border: 0;
+  background: transparent;
+  height: 1.5rem;
+  color: var(--foreground);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.input:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.input[aria-invalid='true'] {
+  border-color: var(--destructive);
+  color: var(--destructive);
+}

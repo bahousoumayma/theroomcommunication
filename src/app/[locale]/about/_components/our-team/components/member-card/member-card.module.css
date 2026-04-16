@@ -1,0 +1,161 @@
+.card {
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  border-bottom: 1px solid color-mix(in oklab, var(--foreground) 10%, transparent);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card:hover {
+  background: color-mix(in oklab, var(--muted) 30%, transparent);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.imageColumn {
+}
+
+.imageWrapper {
+  position: relative;
+  filter: grayscale(1);
+  transition: filter 0.7s;
+  aspect-ratio: 4 / 5;
+  width: 6rem;
+  overflow: hidden;
+}
+
+.card:hover .imageWrapper {
+  filter: grayscale(0);
+}
+
+.image {
+  transition: transform 1s;
+  object-fit: cover;
+}
+
+.card:hover .image {
+  transform: scale(1.1);
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.name {
+  transition: all 0.5s;
+  font-weight: 300;
+  font-size: 1.875rem;
+  letter-spacing: -0.02em;
+  will-change: transform;
+}
+
+@media (hover: hover) {
+  .card:hover .name {
+    transform: translateX(1rem);
+  }
+}
+
+/* Role */
+.role {
+  color: var(--muted-foreground);
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+/* DESCRIPTION */
+.descriptionWrapper {
+  display: none;
+}
+
+/* Description text */
+.description {
+  max-width: 200px;
+
+  color: color-mix(in oklab, var(--muted-foreground) 60%, transparent);
+
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+/* SOCIALS */
+.socialsWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Social list */
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Social link */
+.socialLink {
+  transition: color 0.3s;
+  color: var(--muted-foreground);
+}
+
+/* Social hover */
+.socialLink:hover {
+  color: var(--foreground);
+}
+
+/* Icon */
+.socialIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .card {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .inner {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .imageColumn {
+    grid-column: span 2;
+  }
+
+  .imageWrapper {
+    width: 100%;
+  }
+
+  .identity {
+    grid-column: span 6;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .descriptionWrapper {
+    display: block;
+    grid-column: span 3;
+  }
+
+  .socialsWrapper {
+    grid-column: span 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .descriptionWrapper {
+    display: block;
+  }
+}

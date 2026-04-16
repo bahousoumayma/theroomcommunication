@@ -1,0 +1,142 @@
+{
+  "Layout": {
+    "Header": {
+      "button": "Contact"
+    },
+    "Footer": {
+      "logoAlt": "Logo The Room Communication",
+      "statement": "Nous façonnons des identités de marque raffinées à travers la stratégie, le design et le storytelling — conçues pour résonner avec clarté et un impact durable.",
+      "navAria": "Navigation du pied de page",
+      "socialsAria": "Liens vers les réseaux sociaux",
+      "nav": {
+        "home": "Accueil",
+        "about": "À Propos",
+        "contact": "Contact"
+      },
+      "locationNote": "Basés au Maroc — nous accompagnons des marques à l'international en quête de distinction, de précision et d'une présence élevée.",
+      "copyright": "The Room Communication"
+    }
+  },
+  "Home": {
+    "Hero": {
+      "title": "Nous construisons des <primary>marques</primary> qui captent <primary>l’attention</primary>.",
+      "description": "Stratégie et direction créative pour les entreprises qui comprennent\nque la perception définit la valeur.",
+      "button": "En savoir plus"
+    },
+    "About": {
+      "title": "À propos",
+      "paragraphs": {
+        "singularity": "Chez The Room Communication, nous croyons que chaque marque possède une singularité qui mérite d’être révélée avec justesse.",
+        "vision": "Notre vision est de créer des univers uniques, où la créativité rencontre la stratégie et donne naissance à des identités distinctives et mémorables.",
+        "approach": "À travers une approche à la fois créative et stratégique, nous transformons les marques en expériences cohérentes et désirables."
+      },
+      "button": "En savoir plus"
+    },
+    "Trust": {
+      "title": "Fait confiance par des entreprises de premier plan"
+    },
+    "Mission": {
+      "kicker": "Notre vision",
+      "lead": "Fort de plusieurs années d’expérience auprès de marques et d’entreprises en croissance, nous apportons un accompagnement stratégique fondé sur des résultats concrets, une créativité maîtrisée et une réelle exigence de réussite.",
+      "statement": "Nous concevons des identités digitales d’exception pour des marques ambitieuses, en alliant design audacieux, narration immersive et accompagnement sur-mesure, afin de créer un impact durable et distinctif.",
+      "cta": "À propos"
+    },
+    "Services": {
+      "kicker": "Nos services",
+      "title": "Une expertise complète au service de marques ambitieuses",
+      "items": {
+        "strategy": {
+          "title": "Conseil en Stratégie & Branding",
+          "description": "Création d’identités fortes et positionnement de marque."
+        },
+        "coaching": {
+          "title": "Formation & Coaching (Media Training)",
+          "description": "Coaching VIP pour la prise de parole face aux médias et le développement du leadership."
+        },
+        "marketing": {
+          "title": "Marketing Digital & Community Management",
+          "description": "Stratégie de visibilité, gestion des réseaux sociaux et e-réputation."
+        },
+        "events": {
+          "title": "Événementiel & Production",
+          "description": "Organisation de campagnes de communication et production d’événements haut de gamme sur mesure."
+        }
+      }
+    },
+    "FAQ": {
+      "title": "En savoir plus sur nous",
+      "description": "Voici quelques questions que nos clients posent fréquemment",
+      "questions": {
+        "localMarket": {
+          "question": "Travaillez-vous uniquement avec des clients marocains ?",
+          "answer": "Bien que nos racines soient profondément ancrées au Maroc et que nous maîtrisions parfaitement le marché local, nous collaborons également avec des marques internationales souhaitant se développer à l’échelle mondiale ou s’implanter dans la région MENA."
+        },
+        "turnaround": {
+          "question": "Quels sont vos délais de livraison pour les projets ?",
+          "answer": "Pour la plupart des livrables créatifs et assets de design, nous livrons généralement sous 2 à 3 jours ouvrés. Nous allions rapidité et exigence de qualité afin de garantir une exécution premium."
+        },
+        "services": {
+          "question": "Quels services proposez-vous exactement ?",
+          "answer": "Nous sommes spécialisés en gestion des réseaux sociaux, marketing de performance, identité de marque et développement web, avec une approche orientée résultats sur les marchés marocain et international."
+        },
+        "culture": {
+          "question": "Qu’est-ce qui distingue la culture de votre agence ?",
+          "answer": "Nous combinons la performance digitale moderne avec l’hospitalité marocaine. Notre équipe est agile, guidée par la donnée et profondément créative, agissant comme un véritable partenaire de croissance plutôt qu’un simple prestataire."
+        }
+      }
+    }
+  },
+  "Contact": {
+    "Hero": {
+      "kicker": "Demandes 2026",
+      "title": "La présence digitale <br></br> redéfinie par une <br></br> stratégie raffinée"
+    },
+    "ContactSection": {
+      "kicker": "Brief du Projet",
+      "text": "Parlez-nous de votre vision. Construisons ensemble quelque chose de significatif.",
+      "form": {
+        "fields": {
+          "name": {
+            "label": "Nom",
+            "placeholder": "Jurgen Klopp",
+            "errors": {
+              "required": "Le nom ne peut pas être vide",
+              "tooShort": "Le nom est trop court",
+              "tooLong": "Le nom est trop long",
+              "invalid": "Caractères invalides dans le nom"
+            }
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "jurgen@lfc.com",
+            "errors": {
+              "required": "L'email ne peut pas être vide",
+              "format": "Format d'email invalide",
+              "tooLong": "L'email est trop long"
+            }
+          },
+          "subject": {
+            "label": "Sujet",
+            "placeholder": "Comment pouvons-nous vous aider ?",
+            "errors": {
+              "required": "Le sujet ne peut pas être vide",
+              "tooShort": "Le sujet est trop court",
+              "tooLong": "Le sujet est trop long"
+            }
+          },
+          "message": {
+            "label": "Message",
+            "placeholder": "Parlez-nous de votre projet...",
+            "errors": {
+              "required": "Le message ne peut pas être vide",
+              "tooShort": "Le message est trop court",
+              "tooLong": "Le message est trop long",
+              "moreWords": "Ajoutez quelques mots supplémentaires"
+            }
+          }
+        },
+        "submit": "Envoyer le message"
+      }
+    }
+  }
+}

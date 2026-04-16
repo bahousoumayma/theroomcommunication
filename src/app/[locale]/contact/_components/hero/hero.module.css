@@ -1,0 +1,38 @@
+.section {
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+.header {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.kicker {
+  display: block;
+  margin-bottom: 2rem;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.title {
+  font-weight: 300;
+  font-size: clamp(2.5rem, 8vw, 6.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+  }
+
+  .header {
+    margin-bottom: 6rem;
+  }
+}

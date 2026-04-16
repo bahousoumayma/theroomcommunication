@@ -1,0 +1,18 @@
+# Build folders
+.next
+dist
+build
+
+# Dependencies
+node_modules
+
+# Assets & Static
+
+*.png
+*.jpg
+*.svg
+*.ico
+
+# Configs
+package-lock.json
+.env*

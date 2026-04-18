@@ -81,7 +81,7 @@ export function Menu() {
         <div className={styles.socialLinks}>
           <a
             className={styles.socialLink}
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/theroomcommunication"
             target="_blank"
             rel="noopener noreferrer"
           >

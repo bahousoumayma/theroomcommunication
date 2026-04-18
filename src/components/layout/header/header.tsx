@@ -47,7 +47,7 @@ export function Header() {
 
           {/* RIGHT: Actions */}
           <div className={styles.rightSection}>
-            <LocaleSwitcher />
+            <LocaleSwitcher className={styles.localeSwitcher} />
             <Button
               variant="outline"
               size="sm"

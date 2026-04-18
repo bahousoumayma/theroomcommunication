@@ -127,3 +127,13 @@
   align-items: center;
   gap: 2.5rem;
 }
+
+.localeSwitcher {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .localeSwitcher {
+    display: block;
+  }
+}

@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://your-agency-website.com'), // Replace with your domain
+  metadataBase: new URL('https://theroomcommunication.ma'), // Replace with your domain
   title: {
-    default: 'Your Agency Name | Marketing Agency in Rabat',
-    template: '%s | Your Agency Name',
+    default: 'The Room Communication | Marketing Agency in Rabat',
+    template: '%s | The Room Communication',
   },
   description:
     'Leading Moroccan marketing agency in Rabat. We empower individuals and startups with digital strategy, branding, and growth solutions.',
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     'Startup Growth Morocco',
     'Branding Agency Rabat',
   ],
-  authors: [{ name: 'Your Agency Name' }],
-  creator: 'Your Agency Name',
+  authors: [{ name: 'The Room Communication' }],
+  creator: 'Oumayma Bahous',
   openGraph: {
     type: 'website',
     locale: 'en_US', // or 'fr_FR' / 'ar_MA'

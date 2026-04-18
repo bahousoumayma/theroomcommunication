@@ -6,7 +6,11 @@ import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import styles from './locale-switcher.module.css';
 
-export function LocaleSwitcher() {
+interface Props {
+  className?: string;
+}
+
+export function LocaleSwitcher({ className }: Props) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -23,7 +27,7 @@ export function LocaleSwitcher() {
   return (
     <nav
       aria-label="Language selector"
-      className={clsx(styles.wrapper, isPending && styles.pending)}
+      className={clsx(styles.wrapper, isPending && styles.pending, className)}
     >
       <div className={styles.list}>
         {['en', 'fr'].map((lang) => {

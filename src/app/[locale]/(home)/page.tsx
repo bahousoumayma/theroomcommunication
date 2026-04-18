@@ -11,9 +11,8 @@ import { TrustSection } from './_components/trust-section';
 import { VisionSection } from './_components/vision-section';
 
 export const metadata: Metadata = {
-  title: 'Digital Marketing & Growth for Startups in Rabat',
-  description:
-    'Transform your business with Rabat’s premier marketing agency. From individual personal branding to startup scaling, we provide the tools to dominate the Moroccan market.',
+  title: 'Home',
+  description: 'Agence de communication et de marketing digital',
   alternates: {
     canonical: '/',
   },

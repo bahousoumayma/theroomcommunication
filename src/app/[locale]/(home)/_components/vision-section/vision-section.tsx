@@ -85,7 +85,7 @@ export function VisionSection() {
         <div className={styles.canvas}>
           {/* Floating Images */}
           <div className={`${styles.image} ${styles.imageLeft}`}>
-            <Image src="/images/1.jpg" alt="" fill sizes="200px" priority />
+            <Image src="/images/1 copy.jpg" alt="" fill sizes="200px" priority />
           </div>
 
           <div className={`${styles.image} ${styles.imageRightTop}`}>

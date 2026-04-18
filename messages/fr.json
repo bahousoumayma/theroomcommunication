@@ -19,7 +19,7 @@
   },
   "Home": {
     "Hero": {
-      "title": "Nous construisons des <primary>marques</primary> qui captent <primary>l’attention</primary>.",
+      "title": "Nous construisons des <primary>marques</primary> qui <primary>s’imposent</primary>.",
       "description": "Stratégie et direction créative pour les entreprises qui comprennent\nque la perception définit la valeur.",
       "button": "En savoir plus"
     },
@@ -33,7 +33,7 @@
       "button": "En savoir plus"
     },
     "Trust": {
-      "title": "Fait confiance par des entreprises de premier plan"
+      "title": "Ils nous ont fait confiance"
     },
     "Mission": {
       "kicker": "Notre vision",

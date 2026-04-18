@@ -15,7 +15,7 @@
   --text-align-body: start;
   --text-align-heading: left;
 
-  --background: oklch(93.951% 0.03996 75.764);
+  --background: #ffedce;
   --foreground: oklch(0% 0 0);
   --primary: oklch(45.501% 0.17137 18.471);
   --primary-foreground: oklch(98% 0.01 80);

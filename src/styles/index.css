@@ -1,0 +1,5 @@
+@layer reset, base;
+
+@import './variables.css';
+@import './reset.css' layer(reset);
+@import './global.css' layer(base);

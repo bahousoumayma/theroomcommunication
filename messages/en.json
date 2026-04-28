@@ -1,0 +1,157 @@
+{
+  "Layout": {
+    "Header": {
+      "button": "Inquire"
+    },
+    "Footer": {
+      "logoAlt": "The Room Communication Logo",
+      "statement": "We shape refined brand identities through strategy, design, and storytelling—crafted to resonate with clarity and lasting impact.",
+      "navAria": "Footer Navigation",
+      "socialsAria": "Social Media Links",
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact"
+      },
+      "locationNote": "Based in Morocco — working globally with brands that seek distinction, precision, and elevated presence.",
+      "copyright": "The Room Communication"
+    }
+  },
+  "Home": {
+    "Hero": {
+      "title": "We don't do <primary>communication</primary> we create <primary>desire</primary>.",
+      "description": "A luxury-focused communication agency based in Marrakech and Rabat. Hotels, resorts, spas, and high-end real estate — we turn your image into an experience, and your visibility into direct bookings.",
+      "button": "Learn More"
+    },
+    "About": {
+      "title": "About",
+      "paragraphs": {
+        "title": "Every brand holds a unique <em>singularity</em>.",
+        "approach": "At The Room Communication, we believe every brand holds a unique singularity that deserves to be revealed with precision and intent.",
+        "vision": "Our vision is to create distinctive universes where creativity meets strategy, giving birth to memorable and enduring brand identities. Through a dual creative and strategic approach, we transform brands into cohesive, desirable, and meaningful experiences that resonate across cultures."
+      },
+      "button": "Work Together"
+    },
+    "Trust": {
+      "title": "Trusted by leading companies"
+    },
+    "Mission": {
+      "kicker": "Our vision",
+      "lead": "With years of experience helping people and businesses grow, our team provides expert guidance built on real-world results, creative thinking, and a true passion for seeing our partners succeed—no matter where they are starting from.",
+      "statement": "We craft world-class digital identities for ambitious innovators and established brands through boundary-pushing design, immersive storytelling, and a refined partnership that ensures every brand resonates with lasting impact.",
+      "cta": "About us"
+    },
+    "Services": {
+      "kicker": "Our services",
+      "title": "Full-spectrum expertise for ambitious brands",
+      "items": {
+        "strategy": {
+          "title": "Strategy Consulting & Branding",
+          "description": "Crafting strong identities and precise brand positioning."
+        },
+        "coaching": {
+          "title": "Training & Coaching (Media Training)",
+          "description": "VIP coaching for media presence, public speaking, and leadership development."
+        },
+        "marketing": {
+          "title": "Digital Marketing & Community Management",
+          "description": "Visibility strategy, social media management, and online reputation building."
+        },
+        "events": {
+          "title": "Event Strategy & Production",
+          "description": "Designing communication campaigns and producing bespoke, high-end events."
+        }
+      }
+    },
+    "FAQ": {
+      "title": "Learn more about us",
+      "description": "Here are some questions our clients frequently ask",
+      "questions": {
+        "marrakechProjects": {
+          "question": "Why do some high-end projects in Marrakech fail to attract clients?",
+          "answer": "Because even exceptional properties don’t sell themselves. Without a strong image and a sense of desire, they remain invisible."
+        },
+        "brandTransformation": {
+          "question": "How do you turn a hotel or real estate project into a desirable brand?",
+          "answer": "By building a clear identity, a refined artistic direction, and a digital presence that creates emotion before the first visit."
+        },
+        "luxurySales": {
+          "question": "What truly drives sales in the luxury market today?",
+          "answer": "It’s not price or product. It’s perception, exclusivity, and the way the story is told."
+        },
+        "marketDominance": {
+          "question": "Why do some brands dominate the Marrakech luxury market?",
+          "answer": "Because they don’t communicate more — they communicate better, with strategy, precision, and intent."
+        }
+      }
+    },
+    "Ethos": {
+      "bgWord": "ESSENTIALISM",
+      "tag": "Ethos",
+      "title": "Refining the <emphasis>vision</emphasis> of modern founders.",
+      "bodyFirst": "In Morocco, too many great companies remain <emphasis>invisible</emphasis>. Not for lack of talent — but for lack of voice. <emphasis>We’re here to change that</emphasis>.",
+      "bodySecond": "The Room was born from a simple conviction: perception defines value. We exist to give ambitious brands the voice, the vision, and the presence they deserve — in Morocco, in France, and across the world. We are not a traditional agency. We are a creative house with a singular obsession: your brand's elevation.",
+      "cta": "Get Started",
+      "quote": "Aiming for the pinnacle — in every brief, every execution.",
+      "signature": "The Room · Studio Ethos"
+    },
+    "CTA": {
+      "title": "Let's build something <em>extraordinary</em>.",
+      "description": "Every transformative brand partnership begins with a single, deliberate conversation. We are selective — and we would love to hear from you.",
+      "button": "Contact"
+    }
+  },
+  "Contact": {
+    "Hero": {
+      "kicker": "Inquiries 2026",
+      "title": "Digital presence <br></br> redefined through <br></br> refined strategy"
+    },
+    "ContactSection": {
+      "kicker": "Project Brief",
+      "text": "Tell us about your vision. Let's build something meaningful.",
+      "form": {
+        "fields": {
+          "name": {
+            "label": "Name",
+            "placeholder": "Jurgen Klopp",
+            "errors": {
+              "required": "Name can't be empty",
+              "tooShort": "Name is too short",
+              "tooLong": "Name is too long",
+              "invalid": "Invalid characters in name"
+            }
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "jurgen@lfc.com",
+            "errors": {
+              "required": "Email can't be empty",
+              "format": "Invalid email format",
+              "tooLong": "Email is too long"
+            }
+          },
+          "subject": {
+            "label": "Subject",
+            "placeholder": "How can we help?",
+            "errors": {
+              "required": "Subject can't be empty",
+              "tooShort": "Subject is too short",
+              "tooLong": "Subject is too long"
+            }
+          },
+          "message": {
+            "label": "Message",
+            "placeholder": "Tell us about your project...",
+            "errors": {
+              "required": "Message can't be empty",
+              "tooShort": "Message is too short",
+              "tooLong": "Message is too long",
+              "moreWords": "Add a few more words"
+            }
+          }
+        },
+        "submit": "Send Message"
+      }
+    }
+  }
+}

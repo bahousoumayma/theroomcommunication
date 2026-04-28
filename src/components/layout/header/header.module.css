@@ -1,0 +1,139 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(0px);
+  transition: all 0.6s cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-property:
+    color, background-color, border-color, text-decoration-color, fill, stroke, padding-top,
+    padding-bottom;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  inset-inline: 0;
+  background-color: transparent;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-block: 2rem;
+}
+
+.header[data-scrolled='true'] {
+  backdrop-filter: blur(12px);
+  background-color: color-mix(in srgb, var(--background) 80%, transparent);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  width: 100%;
+  max-width: 1800px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 3rem; /* md:px-12 */
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.menuTrigger {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border: none;
+  background: none;
+}
+
+.hamburgerIcon {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1.5rem;
+  height: 0.75rem;
+  overflow: hidden;
+}
+
+.lineTop,
+.lineBottom {
+  background-color: var(--foreground);
+  width: 100%;
+  height: 1px;
+}
+
+.lineTop {
+  transition: transform 500ms;
+}
+
+.menuTrigger:hover .lineTop {
+  transform: translateX(0.5rem);
+}
+
+.menuText {
+  display: none;
+  color: var(--foreground);
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .menuText {
+    display: block; /* md:block */
+  }
+}
+
+.centerSection {
+  display: flex;
+  justify-content: center;
+}
+
+.logoLink {
+  transition: opacity 500ms;
+}
+
+.logoLink:hover {
+  opacity: 0.6;
+}
+
+.logoLink {
+  display: block;
+  position: relative;
+  aspect-ratio: 1280/829;
+  height: 3rem;
+}
+
+.logo {
+  object-fit: cover;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.localeSwitcher {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .localeSwitcher {
+    display: block;
+  }
+}

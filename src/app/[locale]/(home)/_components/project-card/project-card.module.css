@@ -1,0 +1,74 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Media (Image) */
+.media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+
+  background: color-mix(in oklab, var(--muted) 20%, transparent);
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background: rgba(0, 0, 0, 0.05);
+  transition: background 0.5s ease;
+}
+
+/* Hover effects (non-interactive but still visual) */
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.card:hover .overlay {
+  background: transparent;
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Typography */
+.title {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--foreground);
+}
+
+.year {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.badge {
+  width: fit-content;
+  border-radius: 0;
+  border: 1px solid color-mix(in oklab, var(--border) 50%, transparent);
+  background: transparent;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}

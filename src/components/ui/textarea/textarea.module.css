@@ -1,0 +1,44 @@
+.textarea {
+  display: flex;
+  transition: border-color 0.5s;
+  outline: none;
+  border: 1px solid color-mix(in oklab, var(--foreground) 15%, transparent);
+  border-radius: 0;
+  background: transparent;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  min-height: 120px;
+  resize: vertical;
+  color: var(--foreground);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.textarea::placeholder {
+  color: color-mix(in oklab, var(--muted-foreground) 40%, transparent);
+}
+
+.textarea:hover {
+  border-color: color-mix(in oklab, var(--foreground) 40%, transparent);
+}
+
+.textarea:focus-visible {
+  border-color: var(--foreground);
+}
+
+.textarea:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.textarea[aria-invalid='true'] {
+  border-color: var(--destructive);
+  color: var(--destructive);
+}
+
+@media (min-width: 768px) {
+  .textarea {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,182 @@
+/* ==========================================================================
+   Main Layout
+   ========================================================================== */
+
+.footer {
+  border-top: 1px solid color-mix(in oklab, var(--foreground) 10%, transparent);
+  background: var(--background);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 5rem 1.25rem 2.5rem;
+  max-width: 720px;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Brand & Identity
+   ========================================================================== */
+
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  position: relative;
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.statement {
+  max-width: 30rem;
+  color: var(--neutral-700);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ==========================================================================
+   Contact Section (Semantic <address>)
+   ========================================================================== */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 100%;
+  font-style: normal; /* Resets default address italics */
+}
+
+.email {
+  display: inline-block;
+  max-width: 100%;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border-bottom: 1px solid color-mix(in oklab, var(--foreground) 20%, transparent);
+  padding-bottom: 0.2rem;
+  transition: all 0.4s ease;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.email:hover {
+  border-color: var(--foreground);
+  color: var(--foreground);
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.phone {
+  color: var(--neutral-600);
+  font-size: 0.85rem;
+  transition: color 0.3s ease;
+}
+
+.phone:hover {
+  color: var(--foreground);
+}
+
+/* ==========================================================================
+   Navigation & Socials (Semantic <ul>)
+   ========================================================================== */
+
+.nav {
+  margin-top: 0.75rem;
+}
+
+.navList,
+.socials {
+  list-style: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.socials {
+  margin-top: 0.25rem;
+}
+
+.link {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+/* ==========================================================================
+   Footer Bottom
+   ========================================================================== */
+
+.note {
+  max-width: 26rem;
+  color: var(--neutral-500);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.bottom {
+  margin-top: 1.5rem;
+  color: var(--neutral-500);
+  font-size: 0.7rem;
+}
+
+.bottom small {
+  font-size: inherit; /* Ensures <small> inherits the parent's font size */
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+.footerLogoText {
+  fill: var(--primary);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    gap: 3rem;
+    padding: 7rem 2rem 3.5rem;
+  }
+
+  .logo {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .statement {
+    font-size: 1.05rem;
+  }
+
+  .email {
+    font-size: 0.8rem;
+    letter-spacing: 0.25em;
+  }
+
+  .navList {
+    gap: 2.5rem;
+  }
+
+  .socials {
+    gap: 2rem;
+  }
+}

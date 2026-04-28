@@ -1,0 +1,163 @@
+/* Container */
+.overlay {
+  display: none; /* Managed by GSAP */
+  position: fixed;
+  inset: 0;
+  z-index: 110;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  opacity: 0; /* Managed by GSAP */
+}
+
+/* Top Left: Close Button */
+.closeButton {
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 10px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+
+.closeText {
+  color: var(--muted-foreground);
+  transition: color 0.5s ease;
+}
+
+.closeButton:hover .closeText {
+  color: var(--foreground);
+}
+
+.closeIcon {
+  color: var(--muted-foreground);
+  transition:
+    transform 0.5s ease,
+    color 0.5s ease;
+}
+
+.closeButton:hover .closeIcon {
+  color: var(--foreground);
+  transform: rotate(90deg);
+}
+
+/* Top Right: Locale Switcher */
+.localeSwitcherWrapper {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  padding: 0.5rem;
+  z-index: 10;
+}
+
+/* Center: Navigation */
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Slightly larger gap for breathing room */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  overflow: hidden;
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+  padding-block: 0.25rem;
+  color: var(--foreground);
+  font-weight: 300;
+  font-size: 2.5rem; /* Adjusted for mobile */
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+@media (min-width: 48rem) {
+  .link {
+    font-size: 5rem;
+  }
+}
+
+.underline {
+  display: none;
+  position: absolute;
+  bottom: 0.25rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--foreground);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+@media (min-width: 768px) {
+  .underline {
+    display: block;
+  }
+}
+
+.link:hover .underline {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Bottom: Footer / Socials */
+.footer {
+  position: absolute;
+  bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footerLabel {
+  margin: 0;
+  color: var(--muted-foreground);
+  font-size: 9px;
+  font-family: var(--font-primary, inherit);
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 2.5rem;
+  font-weight: 500;
+  font-size: 10px;
+  font-family: var(--font-primary, inherit);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.socialLink {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socialLink:hover {
+  color: var(--muted-foreground);
+}

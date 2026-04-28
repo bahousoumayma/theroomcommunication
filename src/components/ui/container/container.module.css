@@ -1,0 +1,36 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  /* Fluid padding: stays between 1rem and 4rem */
+  padding-left: clamp(1rem, 5vw, 4rem);
+  padding-right: clamp(1rem, 5vw, 4rem);
+
+  /* The Ultimate Safety Net: */
+  /* Even on a 5000px wide monitor, content stops here. */
+  max-width: 1440px;
+}
+
+/* Size Variants - These OVERRIDE the default 1440px */
+.sm {
+  max-width: 768px;
+}
+.md {
+  max-width: 1024px;
+}
+.lg {
+  max-width: 1280px;
+}
+.xl {
+  max-width: 1440px;
+}
+
+/* For Ultra-wide, we usually cap 'full' at something reasonable like 1920px
+   unless the user EXPLICITLY wants a edge-to-edge fluid layout. */
+.full {
+  max-width: 1920px;
+}
+
+.fluid {
+  max-width: 100%; /* Truly edge-to-edge */
+}

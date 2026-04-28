@@ -1,0 +1,195 @@
+/* ================= FIELDSET ================= */
+.fieldSet {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* gap-8 */
+}
+
+/* ================= LEGEND ================= */
+.fieldLegend {
+  color: color-mix(in oklab, var(--foreground) 90%, transparent);
+  margin-bottom: 1rem;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+.fieldLegend[data-variant='label'] {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.fieldLegend[data-variant='legend'] {
+  font-size: 1.25rem;
+}
+
+/* ================= GROUP ================= */
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2.5rem; /* gap-10 */
+}
+
+/* ================= FIELD ================= */
+.field {
+  display: flex;
+  width: 100%;
+  gap: 0.75rem;
+  transition: opacity 500ms;
+}
+
+.field[data-invalid='true'] {
+  color: var(--destructive);
+}
+
+/* orientations */
+.vertical {
+  flex-direction: column;
+}
+
+.vertical > * {
+  width: 100%;
+}
+
+.horizontal {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.responsive {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .responsive {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
+
+/* ================= CONTENT ================= */
+.fieldContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5rem;
+  line-height: 1.625;
+}
+
+/* ================= LABEL ================= */
+.fieldLabel {
+  display: flex;
+  width: fit-content;
+  gap: 0.5rem;
+
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: color-mix(in oklab, var(--foreground) 60%, transparent);
+
+  transition: color 150ms;
+}
+
+/* focus within */
+.field:focus-within .fieldLabel {
+  color: var(--foreground);
+}
+
+/* disabled */
+.field[data-disabled='true'] .fieldLabel {
+  opacity: 0.3;
+}
+
+/* has child field */
+.fieldLabel:has(> [data-slot='field']) {
+  width: 100%;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* ================= TITLE ================= */
+.fieldTitle {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+
+  color: var(--foreground);
+}
+
+.field[data-disabled='true'] .fieldTitle {
+  opacity: 0.3;
+}
+
+/* ================= DESCRIPTION ================= */
+.fieldDescription {
+  font-size: 13px;
+  line-height: 1.625;
+  font-weight: 300;
+
+  color: color-mix(in oklab, var(--muted-foreground) 60%, transparent);
+
+  margin-top: 0.25rem;
+}
+
+.fieldDescription::selection {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+/* ================= SEPARATOR ================= */
+.fieldSeparator {
+  position: relative;
+  margin: 2rem 0;
+  height: 1px;
+  width: 100%;
+}
+
+.separatorLine {
+  background: color-mix(in oklab, var(--foreground) 5%, transparent);
+}
+
+.separatorContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  padding-inline: 1rem;
+
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  background: var(--background);
+  color: color-mix(in oklab, var(--muted-foreground) 40%, transparent);
+}
+
+/* ================= ERROR ================= */
+.fieldError {
+  margin-top: 0.5rem;
+
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: var(--destructive);
+}
+
+.errorList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}

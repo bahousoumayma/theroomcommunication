@@ -1,0 +1,71 @@
+:root {
+  --transition-fast: 500ms;
+  --transition-slow: 700ms;
+  --ease-luxury: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  transition: opacity var(--transition-slow);
+}
+
+.pending {
+  opacity: 0.3;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.label {
+  transition: color var(--transition-fast);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.active {
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+.inactive {
+  color: color-mix(in oklab, var(--muted-foreground) 60%, transparent);
+}
+
+.item:hover .inactive {
+  color: var(--foreground);
+}
+
+.indicator {
+  opacity: 0;
+  transition:
+    width var(--transition-slow) var(--ease-luxury),
+    opacity var(--transition-slow) var(--ease-luxury);
+  margin-top: 0.25rem;
+  background: var(--foreground);
+  width: 0;
+  height: 1px;
+}
+
+.indicatorActive {
+  opacity: 1;
+  width: 100%;
+}
+
+.item:hover .indicator {
+  opacity: 0.3;
+  width: 50%;
+}

@@ -1,0 +1,64 @@
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  overflow-x: hidden;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.headerTitle {
+}
+
+.marquees {
+  display: grid;
+  gap: 3rem;
+}
+
+.marquee {
+  border-bottom: 0.0625rem solid var(--muted);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.marqueeTitle {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.track {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.companies {
+  display: flex;
+  align-items: center;
+}
+
+.company {
+  flex: 0 0 auto; /* 🔑 prevents shrinking */
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.companyImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.companyImage {
+  object-fit: contain;
+}

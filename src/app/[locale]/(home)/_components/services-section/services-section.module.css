@@ -1,20 +1,26 @@
 .list {
   position: relative;
   width: 100%;
-  height: 300svh;
-  overflow: hidden;
-}
-
-.service {
-  position: absolute;
-  top: 0;
-  width: 100%;
   height: 100svh;
   overflow: hidden;
 }
 
+.service {
+  clip-path: 'inset(0% 0% 0% 0%)';
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+  will-change: transform;
+}
+
 .background {
   object-fit: cover;
+  object-position: center;
 }
 
 .overlay {
@@ -31,9 +37,10 @@
 }
 
 .title {
-  font-size: clamp(3rem, 8vw, 6rem);
+  font-size: clamp(1.5rem, 4vw, 4rem);
 }
 
 .description {
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1.25rem;
 }

@@ -5,10 +5,12 @@
 .about__container {
   display: grid;
   gap: 3rem;
+  align-items: center;
 }
 
 .about__media {
   position: relative;
+  aspect-ratio: 3 / 4;
 }
 
 .about__image {
@@ -57,8 +59,7 @@
 }
 
 .about__description {
-  margin-bottom: 3rem;
-
+  margin-bottom: 2rem;
   color: var(--muted-foreground);
   font-weight: 300;
   font-size: 0.9375rem;

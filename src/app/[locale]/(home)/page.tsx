@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { ScrollToTop } from '@/components/common/scroll-to-top/scroll-to-top';
 import { Hero } from '@/app/[locale]/(home)/_components/hero/hero';
-import { OurEthos } from '@/app/[locale]/(home)/_components/our-ethos/our-ethos';
+import { WhoWeWorkWith } from '@/app/[locale]/(home)/_components/who-we-work-with/who-we-work-with';
 import { CTA } from './_components/CTA';
 import { FAQ } from './_components/FAQ';
 import { AboutSection } from './_components/about-section';
@@ -9,7 +9,6 @@ import { MissionSection } from './_components/mission';
 import { QuoteSection } from './_components/quote-section';
 import { ServicesSection } from './_components/services-section/services-section';
 import { TrustSection } from './_components/trust-section';
-import { VisionSection } from './_components/vision-section';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -26,10 +25,9 @@ export default function Home() {
       <AboutSection />
       <TrustSection />
       <MissionSection />
-      <VisionSection />
       <ServicesSection />
       <QuoteSection />
-      <OurEthos />
+      <WhoWeWorkWith />
       <FAQ />
       <CTA />
       <ScrollToTop />

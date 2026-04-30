@@ -1,7 +1,7 @@
 .section {
   border-top: 0.0625rem solid var(--muted);
   background: var(--background);
-  padding-top: 4rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -11,6 +11,7 @@
 .grid {
   display: grid;
   gap: 2rem;
+  align-items: center;
 }
 
 @media (min-width: 48rem) {
@@ -94,6 +95,7 @@
 
 .media {
   position: relative;
+  aspect-ratio: 3 / 4;
 }
 
 .image {

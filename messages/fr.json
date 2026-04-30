@@ -24,12 +24,9 @@
       "button": "En savoir plus"
     },
     "About": {
-      "title": "À propos",
-      "paragraphs": {
-        "title": "Chaque marque possède une <em>singularité</em> unique.",
-        "approach": "Chez The Room Communication, nous croyons que chaque marque possède une singularité unique qui mérite d’être révélée avec précision et intention.",
-        "vision": "Notre vision est de créer des univers distinctifs où la créativité rencontre la stratégie, donnant naissance à des identités de marque mémorables et durables. Grâce à une approche à la fois créative et stratégique, nous transformons les marques en expériences cohérentes, désirables et porteuses de sens, capables de résonner à travers les cultures."
-      },
+      "kicker": "À propos",
+      "title": "Une <em>agence</em> née de l'autre côté.",
+      "description": "Avant d'être une agence, nous étions clients. Nous connaissons les frustrations d'un hôtelier face à une communication générique. Des visuels sans âme. Des stratégies sans compréhension réelle du luxe. C'est précisément pour cela que The Room Communication est née. Avec une expertise issue du terrain, nous avons créé une agence pensée pour une seule chose : élever les marques d'exception à leur véritable niveau. À Marrakech, où le luxe est partout — mais rarement raconté correctement - nous avons choisi de faire la différence.",
       "button": "Travaillons ensemble"
     },
     "Trust": {
@@ -44,57 +41,58 @@
     "Services": {
       "kicker": "Nos services",
       "title": "Une expertise complète au service de marques ambitieuses",
-      "items": {
-        "strategy": {
+      "items": [
+        {
           "title": "Conseil en Stratégie & Branding",
           "description": "Création d’identités fortes et positionnement de marque."
         },
-        "coaching": {
+        {
           "title": "Formation & Coaching (Media Training)",
           "description": "Coaching VIP pour la prise de parole face aux médias et le développement du leadership."
         },
-        "marketing": {
+        {
           "title": "Marketing Digital & Community Management",
           "description": "Stratégie de visibilité, gestion des réseaux sociaux et e-réputation."
         },
-        "events": {
+        {
           "title": "Événementiel & Production",
           "description": "Organisation de campagnes de communication et production d’événements haut de gamme sur mesure."
         }
-      }
+      ]
     },
     "FAQ": {
-      "title": "En savoir plus sur nous",
-      "description": "Voici quelques questions que nos clients posent fréquemment",
-      "questions": {
-        "marrakechProjects": {
+      "kicker": "En savoir plus sur nous",
+      "title": "Voici quelques questions que nos clients posent fréquemment",
+      "questions": [
+        {
           "question": "Pourquoi certains projets d’exception à Marrakech ne trouvent-ils pas leurs clients ?",
           "answer": "Parce qu’un produit, même exceptionnel, ne suffit pas. Sans image forte et sans désir, il reste invisible."
         },
-        "brandTransformation": {
+        {
           "question": "Comment transformer un hôtel ou un projet immobilier en marque désirable ?",
           "answer": "En construisant une identité claire, une direction artistique cohérente et une présence digitale capable de créer de l’émotion avant même la visite."
         },
-        "luxurySales": {
+        {
           "question": "Qu’est-ce qui fait réellement vendre dans le luxe aujourd’hui ?",
           "answer": "Ce n’est ni le prix, ni le produit. C’est la perception, la rareté et la manière dont l’histoire est racontée."
         },
-        "marketDominance": {
+        {
           "question": "Pourquoi certaines marques à Marrakech dominent-elles leur marché ?",
           "answer": "Parce qu’elles ne communiquent pas plus — elles communiquent mieux, avec une stratégie pensée pour attirer, séduire et convertir."
         }
-      }
+      ]
     },
-    "Ethos": {
-      "bgWord": "ESSENTIALISME",
-      "tag": "Ethos",
-      "title": "Affiner la <emphasis>vision</emphasis> des fondateurs modernes.",
-
-      "bodyFirst": "Au Maroc, trop d’excellentes entreprises restent <emphasis>invisibles</emphasis>. Non par manque de talent — mais par manque de voix. <emphasis>Nous sommes là pour changer cela.</emphasis>",
-      "bodySecond": "The Room est né d’une conviction simple : la perception définit la valeur. Nous existons pour offrir aux marques ambitieuses la voix, la vision et la présence qu’elles méritent — au Maroc, en France et à l’international. Nous ne sommes pas une agence traditionnelle. Nous sommes une maison créative animée par une obsession unique : l’élévation de votre marque.",
-      "cta": "Commencez",
-      "quote": "Viser l’excellence — dans chaque brief, chaque exécution.",
-      "signature": "The Room · Studio Ethos"
+    "WhoWeWorkWith": {
+      "kicker": "Nos univers",
+      "title": "Avec qui nous travaillons",
+      "subTitle": "Nous accompagnons des marques qui exigent plus que de la visibilité.",
+      "list": [
+        "Hôtels & resorts de luxe",
+        "Spas & maisons de bien-être",
+        "Immobilier haut de gamme",
+        "Projets d'exception"
+      ],
+      "cta": "Commencez"
     },
     "CTA": {
       "title": "Construisons quelque chose d’<em>extraordinaire</em>.",

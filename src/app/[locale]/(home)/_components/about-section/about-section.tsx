@@ -24,18 +24,16 @@ export async function AboutSection() {
         {/* Content */}
         <div className={styles.about__content}>
           <header className={styles.about__header}>
-            <p className={styles.about__kicker}>{t('title')}</p>
+            <p className={styles.about__kicker}>{t('kicker')}</p>
 
             <h2 className={styles.about__title}>
-              {t.rich('paragraphs.title', {
+              {t.rich('title', {
                 em: (chunks) => <em className={styles.about__highlight}>{chunks}</em>,
               })}
             </h2>
           </header>
 
-          <blockquote className={styles.about__approach}>{t('paragraphs.approach')}</blockquote>
-
-          <p className={styles.about__description}>{t('paragraphs.vision')}</p>
+          <p className={styles.about__description}>{t('description')}</p>
 
           <div className={styles.about__actions}>
             <Button>{t('button')}</Button>

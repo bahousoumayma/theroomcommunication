@@ -8,7 +8,6 @@ import { AboutSection } from './_components/about-section';
 import { MissionSection } from './_components/mission';
 import { QuoteSection } from './_components/quote-section';
 import { ServicesSection } from './_components/services-section/services-section';
-import { TrustSection } from './_components/trust-section';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -23,7 +22,6 @@ export default function Home() {
     <main>
       <Hero />
       <AboutSection />
-      <TrustSection />
       <MissionSection />
       <ServicesSection />
       <QuoteSection />

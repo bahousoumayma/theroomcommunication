@@ -6,9 +6,14 @@ import { useTranslations } from 'next-intl';
 import { Container } from '@/components/ui/container';
 import styles from './FAQ.module.css';
 
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
 export function FAQ() {
   const t = useTranslations('Home.FAQ');
-  const questions = t.raw('questions');
+  const questions = t.raw('questions') as FAQItem[];
 
   return (
     <section className={styles.section}>

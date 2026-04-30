@@ -7,12 +7,17 @@ import { useTranslations } from 'next-intl';
 import { gsap, useGSAP } from '@/lib/gsap';
 import styles from './services-section.module.css';
 
+interface Service {
+  title: string;
+  description: string;
+}
+
 const images = ['/images/3 copy.jpg', '/images/4 copy.jpg', '/images/8.jpg', '/images/10.jpg'];
 
 export function ServicesSection() {
   const list = useRef<HTMLUListElement>(null);
   const t = useTranslations('Home.Services');
-  const servicesList = t.raw('items') as any;
+  const servicesList = t.raw('items') as Service[];
 
   useGSAP(
     () => {

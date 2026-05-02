@@ -9,7 +9,7 @@ import styles from './who-we-work-with.module.css';
 const images = [
   '/images/clients/luxury-hotels-and-resorts.jpg',
   '/images/clients/spas-and-wellness-destinations.jpg',
-  '/images/clients/high-end-real-estate.jpg  ',
+  '/images/clients/high-end-real-estate.jpg',
   '/images/clients/exceptional-projects.jpg',
 ];
 

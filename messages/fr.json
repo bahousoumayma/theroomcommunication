@@ -29,34 +29,38 @@
       "description": "Avant d'être une agence, nous étions clients. Nous connaissons les frustrations d'un hôtelier face à une communication générique. Des visuels sans âme. Des stratégies sans compréhension réelle du luxe. C'est précisément pour cela que The Room Communication est née. Avec une expertise issue du terrain, nous avons créé une agence pensée pour une seule chose : élever les marques d'exception à leur véritable niveau. À Marrakech, où le luxe est partout — mais rarement raconté correctement - nous avons choisi de faire la différence.",
       "button": "Travaillons ensemble"
     },
-    "Trust": {
-      "title": "Ils nous ont fait confiance"
+    "Vision": {
+      "kicker": "VISION",
+      "title": "Notre vision du luxe",
+      "subtitle": "Le luxe ne se vend pas. Il se ressent.",
+      "description": "Notre mission est de construire une image qui attire, intrigue et convertit — sans jamais compromettre votre positionnement. Nous travaillons chaque marque comme une identité unique, avec une approche sur-mesure qui allie storytelling, esthétique et stratégie.",
+      "ctaButton": "Découvrir notre approche"
     },
-    "Mission": {
-      "kicker": "Notre vision",
-      "lead": "Fort de plusieurs années d’expérience auprès de marques et d’entreprises en croissance, nous apportons un accompagnement stratégique fondé sur des résultats concrets, une créativité maîtrisée et une réelle exigence de réussite.",
-      "statement": "Nous concevons des identités digitales d’exception pour des marques ambitieuses, en alliant design audacieux, narration immersive et accompagnement sur-mesure, afin de créer un impact durable et distinctif.",
-      "cta": "À propos"
+    "Differentiation": {
+      "kicker": "Differentiation",
+      "title": "Ce qui nous distingue",
+      "subTitle": "Une compréhension réelle du luxe — au-delà de la théorie.",
+      "description": "Notre approche est façonnée par une expérience concrète, pensée par quelqu’un qui a été à votre place. Nous cultivons une exigence esthétique élevée, une obsession du détail et, surtout, une stratégie orientée résultats."
     },
-    "Services": {
+    "ServicesSection": {
       "kicker": "Nos services",
       "title": "Une expertise complète au service de marques ambitieuses",
-      "items": [
+      "services": [
         {
-          "title": "Conseil en Stratégie & Branding",
-          "description": "Création d’identités fortes et positionnement de marque."
+          "title": "Branding & Image de marque",
+          "description": "Création d'univers visuels et stratégiques alignés avec les codes du luxe."
         },
         {
-          "title": "Formation & Coaching (Media Training)",
-          "description": "Coaching VIP pour la prise de parole face aux médias et le développement du leadership."
+          "title": "Marketing digital",
+          "description": "Stratégies performantes pour attirer une clientèle ciblée et qualifiée."
         },
         {
-          "title": "Marketing Digital & Community Management",
-          "description": "Stratégie de visibilité, gestion des réseaux sociaux et e-réputation."
+          "title": "Community management haut de gamme",
+          "description": "Gestion élégante et cohérente de votre présence digitale."
         },
         {
-          "title": "Événementiel & Production",
-          "description": "Organisation de campagnes de communication et production d’événements haut de gamme sur mesure."
+          "title": "Événementiel sur mesure",
+          "description": "Conception d'expériences exclusives et mémorables."
         }
       ]
     },

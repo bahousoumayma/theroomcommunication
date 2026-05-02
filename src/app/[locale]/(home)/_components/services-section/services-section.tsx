@@ -12,12 +12,17 @@ interface Service {
   description: string;
 }
 
-const images = ['/images/3 copy.jpg', '/images/4 copy.jpg', '/images/8.jpg', '/images/10.jpg'];
+const images = [
+  '/images/services/branding-and-brand-identity.jpg',
+  '/images/services/digital-marketing.jpg',
+  '/images/services/high-end-community-management.jpg',
+  '/images/services/bespoke-event-planning.jpg',
+];
 
 export function ServicesSection() {
   const list = useRef<HTMLUListElement>(null);
-  const t = useTranslations('Home.Services');
-  const servicesList = t.raw('items') as Service[];
+  const t = useTranslations('Home.ServicesSection');
+  const servicesList = t.raw('services') as Service[];
 
   useGSAP(
     () => {

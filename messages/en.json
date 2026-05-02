@@ -29,34 +29,38 @@
       "description": "Before becoming an agency, we were clients. We understand the frustration of hoteliers facing generic communication. Soulless visuals. Strategies with no real understanding of luxury. That is exactly why The Room Communication was created. With hands-on experience from within the industry, we built an agency with one clear purpose: to elevate exceptional brands to their true standard. In Marrakech - where luxury is everywhere, yet rarely told right - we chose to do things differently.",
       "button": "Work Together"
     },
-    "Trust": {
-      "title": "Trusted by leading companies"
+    "Differentiation": {
+      "kicker": "Differentiation",
+      "title": "What Sets Us Apart",
+      "subTitle": "A genuine understanding of luxury — beyond theory.",
+      "description": "Our approach is shaped by real experience, built by someone who has been in your position. We uphold high aesthetic standards, maintain an obsession with detail, and above all, deliver strategies focused on results."
     },
-    "Mission": {
-      "kicker": "Our vision",
-      "lead": "With years of experience helping people and businesses grow, our team provides expert guidance built on real-world results, creative thinking, and a true passion for seeing our partners succeed—no matter where they are starting from.",
-      "statement": "We craft world-class digital identities for ambitious innovators and established brands through boundary-pushing design, immersive storytelling, and a refined partnership that ensures every brand resonates with lasting impact.",
-      "cta": "About us"
+    "Vision": {
+      "kicker": "VISION",
+      "title": "Our vision of luxury",
+      "subtitle": "Luxury is not sold. It is felt.",
+      "description": "Our mission is to craft an image that attracts, intrigues, and converts — without ever compromising your positioning. We treat each brand as a unique identity, through a tailored approach combining storytelling, aesthetics, and strategy.",
+      "ctaButton": "Discover our approach"
     },
-    "Services": {
+    "ServicesSection": {
       "kicker": "Our services",
       "title": "Full-spectrum expertise for ambitious brands",
-      "items": [
+      "services": [
         {
-          "title": "Strategy Consulting & Branding",
-          "description": "Crafting strong identities and precise brand positioning."
+          "title": "Branding & Brand Identity",
+          "description": "Creating visual and strategic universes aligned with luxury standards."
         },
         {
-          "title": "Training & Coaching (Media Training)",
-          "description": "VIP coaching for media presence, public speaking, and leadership development."
+          "title": "Digital Marketing",
+          "description": "Performance-driven strategies to attract a targeted, high-value audience."
         },
         {
-          "title": "Digital Marketing & Community Management",
-          "description": "Visibility strategy, social media management, and online reputation building."
+          "title": "High-End Community Management",
+          "description": "Elegant and consistent management of your digital presence."
         },
         {
-          "title": "Event Strategy & Production",
-          "description": "Designing communication campaigns and producing bespoke, high-end events."
+          "title": "Bespoke Event Planning",
+          "description": "Designing exclusive, high-end experiences."
         }
       ]
     },

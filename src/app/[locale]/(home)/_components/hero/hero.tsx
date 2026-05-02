@@ -16,13 +16,13 @@ export function Hero() {
       <div className={styles.overlay} />
       <div className={styles.panels}>
         <div className={styles.panel}>
-          <Image className={styles.panelImage} src="/images/x7.jpg" alt="Image" fill />
+          <Image className={styles.panelImage} src="/images/hero/left.jpg" alt="Image" fill />
         </div>
         <div className={styles.panel}>
-          <Image className={styles.panelImage} src="/images/x13.jpg" alt="Image" fill />
+          <Image className={styles.panelImage} src="/images/hero/middle.jpg" alt="Image" fill />
         </div>
         <div className={styles.panel}>
-          <Image className={styles.panelImage} src="/images/x3.jpg" alt="Image" fill />
+          <Image className={styles.panelImage} src="/images/hero/right.jpg" alt="Image" fill />
         </div>
       </div>
       <Container className={styles.container}>

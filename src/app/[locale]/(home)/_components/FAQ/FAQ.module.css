@@ -16,7 +16,7 @@
 
 @media (min-width: 48rem) {
   .grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.7fr 1.3fr;
     gap: 5rem;
   }
 }

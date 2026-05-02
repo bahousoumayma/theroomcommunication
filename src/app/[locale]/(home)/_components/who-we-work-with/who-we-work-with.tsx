@@ -43,7 +43,7 @@ export function WhoWeWorkWith() {
         </div>
         <figure className={styles.media}>
           <Image
-            src="/images/x9.jpg"
+            src="/images/our-partners.jpg"
             alt="Studio ethos"
             fill
             className={styles.image}

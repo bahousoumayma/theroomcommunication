@@ -21,9 +21,9 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <About />
       <Vision />
       <Differentiation />
-      <About />
       <ServicesSection />
       <WhoWeWorkWith />
       <FAQ />

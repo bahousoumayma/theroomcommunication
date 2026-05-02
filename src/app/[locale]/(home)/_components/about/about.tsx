@@ -10,18 +10,6 @@ export async function About() {
   return (
     <section className={styles.about}>
       <Container className={styles.about__container}>
-        {/* Media */}
-        <figure className={styles.about__media}>
-          <Image
-            src="/images/about.jpg"
-            alt="About our company"
-            fill
-            className={styles.about__image}
-            priority
-          />
-        </figure>
-
-        {/* Content */}
         <div className={styles.about__content}>
           <header className={styles.about__header}>
             <p className={styles.about__kicker}>{t('kicker')}</p>
@@ -39,6 +27,15 @@ export async function About() {
             <Button>{t('button')}</Button>
           </div>
         </div>
+        <figure className={styles.about__media}>
+          <Image
+            src="/images/about.jpg"
+            alt="About our company"
+            fill
+            className={styles.about__image}
+            priority
+          />
+        </figure>
       </Container>
     </section>
   );

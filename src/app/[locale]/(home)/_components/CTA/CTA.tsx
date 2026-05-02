@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
+import { Link } from '@/i18n/navigation';
 import styles from './CTA.module.css';
 
 export function CTA() {
@@ -15,7 +16,9 @@ export function CTA() {
           })}
         </h2>
         <p className={styles.description}>{t('description')}</p>
-        <Button variant="secondary">{t('button')}</Button>
+        <Button render={<Link href="/contact" />} nativeButton={false}>
+          {t('button')}
+        </Button>
       </Container>
     </section>
   );

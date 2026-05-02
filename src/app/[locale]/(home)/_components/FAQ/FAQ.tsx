@@ -25,7 +25,7 @@ export function FAQ() {
 
         <div className={styles.grid}>
           <figure className={styles.media}>
-            <Image className={styles.image} src="/images/x11.jpg" alt="Image" fill />
+            <Image className={styles.image} src="/images/faq.jpg" alt="Image" fill />
           </figure>
           <Accordion.Root className={styles.accordion}>
             {questions.map((FAQItem, index) => (

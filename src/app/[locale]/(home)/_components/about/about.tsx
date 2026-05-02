@@ -13,7 +13,7 @@ export async function About() {
         {/* Media */}
         <figure className={styles.about__media}>
           <Image
-            src="/images/about-image.jpg"
+            src="/images/about.jpg"
             alt="About our company"
             fill
             className={styles.about__image}

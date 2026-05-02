@@ -69,7 +69,7 @@
 }
 
 .variantSecondary:hover {
-  background: var(--muted);
+  background-color: oklch(from var(--secondary) calc(l * 1.05) c h);
 }
 
 /* Ghost */

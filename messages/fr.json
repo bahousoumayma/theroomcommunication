@@ -88,7 +88,7 @@
     },
     "WhoWeWorkWith": {
       "kicker": "Nos univers",
-      "title": "Avec qui nous travaillons",
+      "title": "Avec qui <primary>nous travaillons</primary>",
       "subTitle": "Nous accompagnons des marques qui exigent plus que de la visibilité.",
       "list": [
         "Hôtels & resorts de luxe",

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { Button } from '@/components/ui/button/button';
 import { Container } from '@/components/ui/container';
+import { Link } from '@/i18n/navigation';
 import styles from './about.module.css';
 
 export async function About() {
@@ -24,7 +25,9 @@ export async function About() {
           <p className={styles.about__description}>{t('description')}</p>
 
           <div className={styles.about__actions}>
-            <Button>{t('button')}</Button>
+            <Button render={<Link href="/about" />} nativeButton={false}>
+              {t('button')}
+            </Button>
           </div>
         </div>
         <figure className={styles.about__media}>

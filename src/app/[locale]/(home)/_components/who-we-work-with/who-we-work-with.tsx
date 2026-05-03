@@ -30,7 +30,7 @@ export function WhoWeWorkWith() {
 
             <h2 className={styles.title}>
               {t.rich('title', {
-                emphasis: (chunks) => <em className={styles.emphasis}>{chunks}</em>,
+                primary: (chunks) => <em className={styles.primary}>{chunks}</em>,
               })}
             </h2>
             <p className={styles.subTitle}>
@@ -44,20 +44,32 @@ export function WhoWeWorkWith() {
               <svg
                 className={styles.headerPrevButtonIcon}
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
-                <path d="M7.712 4.818A1.5 1.5 0 0 1 10 6.095v2.972c.104-.13.234-.248.389-.343l6.323-3.906A1.5 1.5 0 0 1 19 6.095v7.81a1.5 1.5 0 0 1-2.288 1.276l-6.323-3.905a1.505 1.505 0 0 1-.389-.344v2.973a1.5 1.5 0 0 1-2.288 1.276l-6.323-3.905a1.5 1.5 0 0 1 0-2.552l6.323-3.906Z" />
+                <path d="m15 18-6-6 6-6" />
               </svg>
             </button>
             <button className={styles.headerNextButton} type="button" onClick={goToNext}>
               <svg
                 className={styles.headerNextButtonIcon}
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
-                <path d="M3.288 4.818A1.5 1.5 0 0 0 1 6.095v7.81a1.5 1.5 0 0 0 2.288 1.276l6.323-3.905c.155-.096.285-.213.389-.344v2.973a1.5 1.5 0 0 0 2.288 1.276l6.323-3.905a1.5 1.5 0 0 0 0-2.552l-6.323-3.906A1.5 1.5 0 0 0 10 6.095v2.972a1.506 1.506 0 0 0-.389-.343L3.288 4.818Z" />
+                <path d="m9 18 6-6-6-6" />
               </svg>
             </button>
           </div>
@@ -65,7 +77,7 @@ export function WhoWeWorkWith() {
         <div className={styles.viewport} ref={emblaRef}>
           <div className={styles.viewportContainer}>
             {clients.map((client, index) => (
-              <article className={styles.card}>
+              <article className={styles.card} key={index}>
                 <Image
                   src={images[index]}
                   alt="Studio ethos"

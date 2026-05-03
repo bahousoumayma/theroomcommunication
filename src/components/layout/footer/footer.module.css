@@ -36,7 +36,7 @@
 
 .statement {
   max-width: 30rem;
-  color: var(--neutral-700);
+  color: var(--primary);
   font-size: 0.95rem;
   line-height: 1.7;
 }
@@ -116,6 +116,7 @@
   letter-spacing: 0.18em;
   text-transform: uppercase;
   transition: opacity 0.3s ease;
+  color: var(--primary);
 }
 
 .link:hover {

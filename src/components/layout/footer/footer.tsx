@@ -35,7 +35,6 @@ export function Footer() {
 
         <p className={styles.statement}>{t('statement')}</p>
 
-        {/* Semantic <address> for contact information */}
         <address className={styles.contact}>
           <a href="mailto:contact@theroomcommunication.ma" className={styles.email}>
             contact@theroomcommunication.ma

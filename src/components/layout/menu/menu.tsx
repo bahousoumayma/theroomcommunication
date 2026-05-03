@@ -17,6 +17,7 @@ const menuDictionary = {
       { label: 'Home', href: '/' },
       { label: 'About', href: '/about' },
       { label: 'Services', href: '/services' },
+      { label: 'Contact', href: '/contact' },
     ],
   },
   fr: {
@@ -26,6 +27,7 @@ const menuDictionary = {
       { label: 'Accueil', href: '/' },
       { label: 'À propos', href: '/about' },
       { label: 'Services', href: '/services' },
+      { label: 'Contact', href: '/contact' },
     ],
   },
 } as const;

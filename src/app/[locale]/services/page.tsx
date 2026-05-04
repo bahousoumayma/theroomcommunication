@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { ServicesSection } from './_components/services-section/services-section';
 
 export const metadata: Metadata = {
   title: 'Digital Marketing & Branding Services',
@@ -7,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <main>Page</main>;
+  return (
+    <main>
+      <ServicesSection />
+    </main>
+  );
 }
